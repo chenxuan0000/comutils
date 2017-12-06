@@ -7,6 +7,15 @@
     "build": "node script/build.js",
     "test": "karma start script/karma.conf.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenxuan0000/comUtils"
+  },
+  "keywords": [
+    "util",
+    "tool",
+    "common-util"
+  ],
   "author": "chenxuan",
   "license": "MIT",
   "devDependencies": {
