@@ -1,5 +1,5 @@
 {
-  "name": "comUtils",
+  "name": "comutils",
   "version": "1.0.0",
   "description": "前端代码常用工具类",
   "main": "min/comUtils.min.js",
