@@ -1,8 +1,8 @@
 {
   "name": "comutils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "前端代码常用工具类",
-  "main": "min/comUtils.min.js",
+  "main": "min/comutils.min.js",
   "scripts": {
     "build": "node script/build.js",
     "test": "karma start script/karma.conf.js"
