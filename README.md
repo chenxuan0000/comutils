@@ -76,7 +76,7 @@ const hasClass = hasClass()
 #### &emsp;&emsp;[stringfyQs][stringfyQs]&emsp;&emsp;对象序列化
 
 [arrayEqual]:https://github.com/chenxuan0000/comUtils/blob/master/src/array/arrayEqual.js
-[Secert]:https://github.com/chenxuan0000/comUtils/blob/master/src/secert/secertInfo.js
+[secertInfo]:https://github.com/chenxuan0000/comUtils/blob/master/src/secert/secertInfo.js
 [typeOf]:https://github.com/chenxuan0000/comUtils/blob/master/src/type/typeOf.js
 [addClass]:https://github.com/chenxuan0000/comUtils/blob/master/src/class/addClass.js
 [hasClass]:https://github.com/chenxuan0000/comUtils/blob/master/src/class/hasClass.js
