@@ -14,9 +14,9 @@
 
 ### 浏览器:
 ``` html
-  <script src="comUtils.min.js"></script>
+  <script src="comutils.min.js"></script>
   <script>
-      var hasClass = comUtils.hasClass(el,cls)
+      var hasClass = comutils.hasClass(el,cls)
   </script>
 ```
 
@@ -29,16 +29,16 @@ webpack、RequireJS、SeaJS等
 
 ``` javascript
 // 完整引入
-const comUtils = require('comUtils')
-const hasClass = comUtils.hasClass(el,cls)
+const comutils = require('comutils')
+const hasClass = comutils.hasClass(el,cls)
 ```
 
 **推荐使用方法**  
 
 不需要完整引入所有函数，只引入需要使用的方法即可
 ``` javascript
-// 只引入部分方法('outils/<方法名>')
-const hasClass = require('comUtils/hasClass')
+// 只引入部分方法('comutils/<方法名>')
+const hasClass = require('comutils/hasClass')
 const hasClass = hasClass()
 ```
 ## API文档
@@ -62,15 +62,22 @@ const hasClass = hasClass()
 #### &emsp;&emsp;[isPhoneNum][isPhoneNum]&emsp;&emsp;判断是否为手机号  
 #### &emsp;&emsp;[isUrl][isUrl]&emsp;&emsp;判断是否为URL地址
 
+### Secert
+#### &emsp;&emsp;[secertInfo][secertInfo]&emsp;&emsp;给隐私信息标记号加密
+
 ### Time  
 #### &emsp;&emsp;[formatPassTime][formatPassTime]&emsp;&emsp;格式化时间戳为天时分秒[d,h,m,s]
+
+### Type
+#### &emsp;&emsp;[typeOf][typeOf]&emsp;&emsp;判断类型
 
 ### Url
 #### &emsp;&emsp;[parseQs][parseQs]&emsp;&emsp;url参数转对象
 #### &emsp;&emsp;[stringfyQs][stringfyQs]&emsp;&emsp;对象序列化
 
 [arrayEqual]:https://github.com/chenxuan0000/comUtils/blob/master/src/array/arrayEqual.js
-
+[Secert]:https://github.com/chenxuan0000/comUtils/blob/master/src/secert/secertInfo.js
+[typeOf]:https://github.com/chenxuan0000/comUtils/blob/master/src/type/typeOf.js
 [addClass]:https://github.com/chenxuan0000/comUtils/blob/master/src/class/addClass.js
 [hasClass]:https://github.com/chenxuan0000/comUtils/blob/master/src/class/hasClass.js
 [removeClass]:https://github.com/chenxuan0000/comUtils/blob/master/src/class/removeClass.js
