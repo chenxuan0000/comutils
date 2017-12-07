@@ -9,7 +9,7 @@ const config = {
   entry: path.resolve(rootPath, 'src', 'index.js'),
   output: {
     filename: `${pkg.name}.min.js`,
-    path: path.resolve(rootPath, 'min'),
+    path: path.resolve(rootPath, 'build'),
     library: `${pkg.name}`,
     libraryTarget: 'umd'
   },
