@@ -1,6 +1,6 @@
 describe('Object API:', function () {
     describe('#deepClone()', function () {
-        it(`person deepEqual comUtils.deepClone(person) should return true`, function () {
+        it(`person deepEqual comutils.deepClone(person) should return true`, function () {
             let person = {
                 name: "user",
                 settings: {
@@ -8,10 +8,10 @@ describe('Object API:', function () {
                     second: [1, 2, 3, 4, 3]
                 }
             }
-            assert.deepEqual(person, comUtils.deepClone(person))
+            assert.deepEqual(person, comutils.deepClone(person))
         });
 
-        it(`person === comUtils.deepClone(person) should return false`, function () {
+        it(`person === comutils.deepClone(person) should return false`, function () {
             let person = {
                 name: "user",
                 settings: {
@@ -19,23 +19,23 @@ describe('Object API:', function () {
                     second: [1, 2, 3, 4, 3]
                 }
             }
-            assert.notEqual(person, comUtils.deepClone(person))
+            assert.notEqual(person, comutils.deepClone(person))
         });
     });
 
     describe('#isEmptyObject()', function () {
-        it(`comUtils.isEmptyObject({}) should return true`, function () {
-            assert(comUtils.deepClone({}))
+        it(`comutils.isEmptyObject({}) should return true`, function () {
+            assert(comutils.deepClone({}))
         });
 
-        it(`comUtils.isEmptyObject({ one: 1 }) should return false`, function () {
-            assert.notEqual(comUtils.isEmptyObject({
+        it(`comutils.isEmptyObject({ one: 1 }) should return false`, function () {
+            assert.notEqual(comutils.isEmptyObject({
                 one: 1
             }))
         });
 
-        it(`comUtils.isEmptyObject([]) should return false`, function () {
-            assert.notEqual(comUtils.isEmptyObject([]))
+        it(`comutils.isEmptyObject([]) should return false`, function () {
+            assert.notEqual(comutils.isEmptyObject([]))
         });
     });
 })

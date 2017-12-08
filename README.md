@@ -25,8 +25,6 @@
 $ npm install --save-dev comutils
 ```
 
-webpack、RequireJS、SeaJS等
-
 ``` javascript
 // 完整引入
 const comutils = require('comutils')
@@ -40,6 +38,7 @@ const hasClass = comutils.hasClass(el,cls)
 // 只引入部分方法('comutils/<方法名>')
 const hasClass = require('comutils/hasClass')
 const hasClass = hasClass()
+import {hasClass} from 'comutils'
 ```
 ## API文档
 ### Array  
