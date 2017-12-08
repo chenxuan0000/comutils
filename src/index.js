@@ -16,6 +16,7 @@ const isEmail = require('./regexp/isEmail')
 const isIdCard = require('./regexp/isIdCard')
 const isPhoneNum = require('./regexp/isPhoneNum')
 const isUrl = require('./regexp/isUrl')
+const priceSubstr = require('./regexp/priceSubstr')
 
 const formatPassTime = require('./time/formatPassTime')
 const formatTime = require('./time/formatTime')
@@ -41,6 +42,7 @@ module.exports = {
   isIdCard,
   isPhoneNum,
   isUrl,
+  priceSubstr,
   formatPassTime,
   formatTime,
   typeOf,

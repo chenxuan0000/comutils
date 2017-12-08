@@ -8,4 +8,4 @@ const isEmail = (str) => {
   return /\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/.test(str)
 }
 
-module.exports = isEmail;
+module.exports = isEmail

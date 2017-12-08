@@ -61,6 +61,7 @@ const hasClass = hasClass()
 #### &emsp;&emsp;[isIdCard][isIdCard]&emsp;&emsp;判断是否为身份证号
 #### &emsp;&emsp;[isPhoneNum][isPhoneNum]&emsp;&emsp;判断是否为手机号  
 #### &emsp;&emsp;[isUrl][isUrl]&emsp;&emsp;判断是否为URL地址
+#### &emsp;&emsp;[priceSubstr][priceSubstr]&emsp;&emsp;千位分割方法
 
 ### Secert
 #### &emsp;&emsp;[secretInfo][secretInfo]&emsp;&emsp;给隐私信息标记号加密
@@ -90,6 +91,7 @@ const hasClass = hasClass()
 [isIdCard]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/isIdCard.js
 [isPhoneNum]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/isPhoneNum.js
 [isUrl]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/isUrl.js
+[priceSubstr]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/priceSubstr.js
 [formatPassTime]:https://github.com/chenxuan0000/comutils/blob/master/src/time/formatPassTime.js
 [formatTime]:https://github.com/chenxuan0000/comutils/blob/master/src/time/formatTime.js
 [parseQs]:https://github.com/chenxuan0000/comutils/blob/master/src/url/parseQueryString.js
