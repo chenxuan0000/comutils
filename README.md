@@ -1,6 +1,6 @@
 # comUtils
 
-[![Build Status](https://travis-ci.org/proYang/outils.svg?branch=master) ![LICENSE MIT](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/comutils) 
+[![Build Status](https://img.shields.io/appveyor/ci/gruntjs/grunt/master.svg) ![LICENSE MIT](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/comutils) ![](https://img.shields.io/npm/v/comutils.svg)
 
  
 前端代码常用工具类  
@@ -63,7 +63,7 @@ const hasClass = hasClass()
 #### &emsp;&emsp;[isUrl][isUrl]&emsp;&emsp;判断是否为URL地址
 
 ### Secert
-#### &emsp;&emsp;[secertInfo][secertInfo]&emsp;&emsp;给隐私信息标记号加密
+#### &emsp;&emsp;[secretInfo][secretInfo]&emsp;&emsp;给隐私信息标记号加密
 
 ### Time  
 #### &emsp;&emsp;[formatPassTime][formatPassTime]&emsp;&emsp;格式化时间戳为天时分秒[d,h,m,s]
@@ -77,7 +77,7 @@ const hasClass = hasClass()
 #### &emsp;&emsp;[stringfyQs][stringfyQs]&emsp;&emsp;对象序列化
 
 [arrayEqual]:https://github.com/chenxuan0000/comUtils/blob/master/src/array/arrayEqual.js
-[secertInfo]:https://github.com/chenxuan0000/comUtils/blob/master/src/secert/secertInfo.js
+[secertInfo]:https://github.com/chenxuan0000/comUtils/blob/master/src/secret/secretInfo.js
 [typeOf]:https://github.com/chenxuan0000/comUtils/blob/master/src/type/typeOf.js
 [addClass]:https://github.com/chenxuan0000/comUtils/blob/master/src/class/addClass.js
 [hasClass]:https://github.com/chenxuan0000/comUtils/blob/master/src/class/hasClass.js
