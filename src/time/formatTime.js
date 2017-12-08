@@ -5,7 +5,10 @@
  * @param  {String} rightBreak
  * @return {String}
  */
-function formatTime (t,leftBreak = '-',rightBreak = ':') {
+function formatTime (t, leftBreak = '-', rightBreak = ':') {
+  if (!t) {
+    return '----'
+  }
   let date = new Date(t)
   let y = date.getFullYear()
   let m = date.getMonth() + 1

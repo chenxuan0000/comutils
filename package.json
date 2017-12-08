@@ -1,8 +1,8 @@
 {
   "name": "comutils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "前端代码常用工具类",
-  "main": "min/comutils.min.js",
+  "main": "build/comutils.min.js",
   "scripts": {
     "build": "node script/build.js",
     "test": "karma start script/karma.conf.js"
@@ -14,7 +14,7 @@
   "keywords": [
     "util",
     "tool",
-    "common-util"
+    "commonUtil"
   ],
   "author": "chenxuan",
   "license": "MIT",
