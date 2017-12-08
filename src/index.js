@@ -18,6 +18,8 @@ const isPhoneNum = require('./regexp/isPhoneNum')
 const isUrl = require('./regexp/isUrl')
 
 const formatPassTime = require('./time/formatPassTime')
+const formatTime = require('./time/formatTime')
+
 
 const typeOf = require('./type/typeOf')
 const secretInfo = require('./secret/secretInfo')
@@ -40,6 +42,7 @@ module.exports = {
   isPhoneNum,
   isUrl,
   formatPassTime,
+  formatTime,
   typeOf,
   secretInfo,
   parseQs,

@@ -67,6 +67,7 @@ const hasClass = hasClass()
 
 ### Time  
 #### &emsp;&emsp;[formatPassTime][formatPassTime]&emsp;&emsp;格式化时间戳为天时分秒[d,h,m,s]
+#### &emsp;&emsp;[formatTime][formatTime]&emsp;&emsp;格式化时间戳为年月日时分秒[d,h,m,s]
 
 ### Type
 #### &emsp;&emsp;[typeOf][typeOf]&emsp;&emsp;判断类型
@@ -90,5 +91,6 @@ const hasClass = hasClass()
 [isPhoneNum]:https://github.com/chenxuan0000/comUtils/blob/master/src/regexp/isPhoneNum.js
 [isUrl]:https://github.com/chenxuan0000/comUtils/blob/master/src/regexp/isUrl.js
 [formatPassTime]:https://github.com/chenxuan0000/comUtils/blob/master/src/time/formatPassTime.js
+[formatTime]:https://github.com/chenxuan0000/comUtils/blob/master/src/time/formatTime.js
 [parseQs]:https://github.com/chenxuan0000/comUtils/blob/master/src/url/parseQueryString.js
 [stringfyQs]:https://github.com/chenxuan0000/comUtils/blob/master/src/url/stringfyQueryString.js
