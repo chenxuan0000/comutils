@@ -1,4 +1,4 @@
-# comUtils
+# comutils
 
 [![Build Status](https://img.shields.io/appveyor/ci/gruntjs/grunt/master.svg) ![LICENSE MIT](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/comutils) ![](https://img.shields.io/npm/v/comutils.svg)
 
@@ -9,7 +9,7 @@
 
 ## 安装使用
 
-1. 直接下载`min`目录下的[comUtils.min.js](https://github.com/chenxuan0000/comUtils/blob/master/min/comUtils.min.js)使用，支持UMD通用模块规范  
+1. 直接下载`min`目录下的[comutils.min.js](https://github.com/chenxuan0000/comutils/blob/master/build/comutils.min.js)使用，支持UMD通用模块规范  
 2. 使用npm安装
 
 ### 浏览器:
@@ -76,21 +76,21 @@ const hasClass = hasClass()
 #### &emsp;&emsp;[parseQs][parseQs]&emsp;&emsp;url参数转对象
 #### &emsp;&emsp;[stringfyQs][stringfyQs]&emsp;&emsp;对象序列化
 
-[arrayEqual]:https://github.com/chenxuan0000/comUtils/blob/master/src/array/arrayEqual.js
-[secertInfo]:https://github.com/chenxuan0000/comUtils/blob/master/src/secret/secretInfo.js
-[typeOf]:https://github.com/chenxuan0000/comUtils/blob/master/src/type/typeOf.js
-[addClass]:https://github.com/chenxuan0000/comUtils/blob/master/src/class/addClass.js
-[hasClass]:https://github.com/chenxuan0000/comUtils/blob/master/src/class/hasClass.js
-[removeClass]:https://github.com/chenxuan0000/comUtils/blob/master/src/class/removeClass.js
-[isElement]:https://github.com/chenxuan0000/comUtils/blob/master/src/class/isElement.js
-[toogleClass]:https://github.com/chenxuan0000/comUtils/blob/master/src/class/toogleClass.js
-[deepClone]:https://github.com/chenxuan0000/comUtils/blob/master/src/object/deepClone.js
-[isEmptyObject]:https://github.com/chenxuan0000/comUtils/blob/master/src/object/isEmptyObject.js
-[isEmail]:https://github.com/chenxuan0000/comUtils/blob/master/src/regexp/isEmail.js
-[isIdCard]:https://github.com/chenxuan0000/comUtils/blob/master/src/regexp/isIdCard.js
-[isPhoneNum]:https://github.com/chenxuan0000/comUtils/blob/master/src/regexp/isPhoneNum.js
-[isUrl]:https://github.com/chenxuan0000/comUtils/blob/master/src/regexp/isUrl.js
-[formatPassTime]:https://github.com/chenxuan0000/comUtils/blob/master/src/time/formatPassTime.js
-[formatTime]:https://github.com/chenxuan0000/comUtils/blob/master/src/time/formatTime.js
-[parseQs]:https://github.com/chenxuan0000/comUtils/blob/master/src/url/parseQueryString.js
-[stringfyQs]:https://github.com/chenxuan0000/comUtils/blob/master/src/url/stringfyQueryString.js
+[arrayEqual]:https://github.com/chenxuan0000/comutils/blob/master/src/array/arrayEqual.js
+[secertInfo]:https://github.com/chenxuan0000/comutils/blob/master/src/secret/secretInfo.js
+[typeOf]:https://github.com/chenxuan0000/comutils/blob/master/src/type/typeOf.js
+[addClass]:https://github.com/chenxuan0000/comutils/blob/master/src/class/addClass.js
+[hasClass]:https://github.com/chenxuan0000/comutils/blob/master/src/class/hasClass.js
+[removeClass]:https://github.com/chenxuan0000/comutils/blob/master/src/class/removeClass.js
+[isElement]:https://github.com/chenxuan0000/comutils/blob/master/src/class/isElement.js
+[toogleClass]:https://github.com/chenxuan0000/comutils/blob/master/src/class/toogleClass.js
+[deepClone]:https://github.com/chenxuan0000/comutils/blob/master/src/object/deepClone.js
+[isEmptyObject]:https://github.com/chenxuan0000/comutils/blob/master/src/object/isEmptyObject.js
+[isEmail]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/isEmail.js
+[isIdCard]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/isIdCard.js
+[isPhoneNum]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/isPhoneNum.js
+[isUrl]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/isUrl.js
+[formatPassTime]:https://github.com/chenxuan0000/comutils/blob/master/src/time/formatPassTime.js
+[formatTime]:https://github.com/chenxuan0000/comutils/blob/master/src/time/formatTime.js
+[parseQs]:https://github.com/chenxuan0000/comutils/blob/master/src/url/parseQueryString.js
+[stringfyQs]:https://github.com/chenxuan0000/comutils/blob/master/src/url/stringfyQueryString.js
