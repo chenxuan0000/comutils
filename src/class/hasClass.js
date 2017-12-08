@@ -4,12 +4,8 @@
  * @param {String} cls
  * @return {Boolean}
  */
-var isElement = require('./isElement');
-function hasClass (el, cls) {
-  if(!isElement(el)) {
-    throw new Error("非元素节点");
-  }
-  return (new RegExp('(\\s|^)' + cls + '(\\s|$)')).test(el.className);
+const hasClass = (el, cls) => {
+  return (new RegExp('(\\s|^)' + cls + '(\\s|$)')).test(el.className)
 }
 
-module.exports = hasClass;
+module.exports = hasClass

@@ -7,16 +7,19 @@
  */
 const typeOf = require('../type/typeOf')
 
-function secretInfo (personInfo, left = 3, right = 3, replace = '*') {
+const secretInfo = (personInfo, left = 3, right = 3, replace = '*') => {
+  if (typeOf(personInfo) === 'number') {
+    personInfo = '' + personInfo
+  }
   if (typeOf(personInfo) !== 'string') {
     throw new Error('参数类型错误')
   }
   if (personInfo.length < 7) {
     throw new Error('参数长度需要大于7')
   }
-  let reg = new RegExp('^([a-zA-Z\\d]{' + left + '})([a-zA-Z\\d]+)([a-zA-Z\\d]{' + right + '})$');
+  let reg = new RegExp('^([a-zA-Z\\d]{' + left + '})([a-zA-Z\\d]+)([a-zA-Z\\d]{' + right + '})$')
   return personInfo.replace(reg, function (x, y, z, p) {
-    let i = '';
+    let i = ''
     while (i.length < z.length) {
       i += replace
     }

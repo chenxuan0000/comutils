@@ -4,15 +4,15 @@
  * @param  {String} cls
  */
 
-var hasClass = require('./hasClass');
+const hasClass = require('./hasClass')
 
-function toggleClass (ele, cls) {
+const toggleClass = (ele, cls) => {
   if (hasClass(ele, cls)) {
-    var reg = new RegExp('(\\s|^)' + cls + '(\\s|$)');
-    ele.className = ele.className.replace(reg, ' ');
+    let reg = new RegExp('(\\s|^)' + cls + '(\\s|$)')
+    ele.className = ele.className.replace(reg, ' ')
   } else {
-    ele.className += ' ' + cls;
+    ele.className += ' ' + cls
   }
 }
 
-module.exports = toggleClass;
+module.exports = toggleClass

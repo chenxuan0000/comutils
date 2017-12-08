@@ -67,7 +67,7 @@ const hasClass = hasClass()
 
 ### Time  
 #### &emsp;&emsp;[formatPassTime][formatPassTime]&emsp;&emsp;格式化时间戳为天时分秒[d,h,m,s]
-#### &emsp;&emsp;[formatTime][formatTime]&emsp;&emsp;格式化时间戳为年月日时分秒[d,h,m,s]
+#### &emsp;&emsp;[formatTime][formatTime]&emsp;&emsp;格式化时间戳为年月日时分秒[y-m-d h:m:s]
 
 ### Type
 #### &emsp;&emsp;[typeOf][typeOf]&emsp;&emsp;判断类型

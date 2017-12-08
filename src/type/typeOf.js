@@ -2,7 +2,7 @@
  * @desc   判断类型
  * @param  {String,Array....} obj
  */
-let typeObj = {
+const typeObj = {
   '[object Boolean]': 'boolean',
   '[object Number]': 'number',
   '[object String]': 'string',
@@ -16,7 +16,7 @@ let typeObj = {
   '[object Error]': 'error'
 }
 
-function typeOf (obj) {
+const typeOf = (obj) => {
   let type = Object.prototype.toString.call(obj)
   return typeObj[type]
 }

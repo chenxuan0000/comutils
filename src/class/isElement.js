@@ -3,8 +3,8 @@
  * @param {HTMLElement} el
  * @return {Boolean}
  */
-function isElement (el) {
-  return el && el.nodeType === Node.ELEMENT_NODE;
+const isElement = (el) => {
+  return el && el.nodeType === Node.ELEMENT_NODE
 }
 
-module.exports = isElement;
+module.exports = isElement
