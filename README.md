@@ -63,7 +63,7 @@ const hasClass = hasClass()
 #### &emsp;&emsp;[isUrl][isUrl]&emsp;&emsp;判断是否为URL地址
 #### &emsp;&emsp;[priceSubstr][priceSubstr]&emsp;&emsp;千位分割方法
 
-### Secert
+### Secret
 #### &emsp;&emsp;[secretInfo][secretInfo]&emsp;&emsp;给隐私信息标记号加密
 
 ### Time  
@@ -78,7 +78,7 @@ const hasClass = hasClass()
 #### &emsp;&emsp;[stringfyQs][stringfyQs]&emsp;&emsp;对象序列化
 
 [arrayEqual]:https://github.com/chenxuan0000/comutils/blob/master/src/array/arrayEqual.js
-[secertInfo]:https://github.com/chenxuan0000/comutils/blob/master/src/secret/secretInfo.js
+[secretInfo]:https://github.com/chenxuan0000/comutils/blob/master/src/secret/secretInfo.js
 [typeOf]:https://github.com/chenxuan0000/comutils/blob/master/src/type/typeOf.js
 [addClass]:https://github.com/chenxuan0000/comutils/blob/master/src/class/addClass.js
 [hasClass]:https://github.com/chenxuan0000/comutils/blob/master/src/class/hasClass.js
