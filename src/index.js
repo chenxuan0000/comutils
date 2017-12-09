@@ -21,6 +21,9 @@ const localStorageApi = require('./stroge/localStorage')
 const formatPassTime = require('./time/formatPassTime')
 const formatTime = require('./time/formatTime')
 
+const isWeixin = require('./device/isWeixin')
+const mobileType = require('./device/mobileType')
+
 const typeOf = require('./type/typeOf')
 const secretInfo = require('./secret/secretInfo')
 
@@ -42,6 +45,8 @@ module.exports = {
   localStorageApi,
   formatPassTime,
   formatTime,
+  isWeixin,
+  mobileType,
   typeOf,
   secretInfo,
   parseQs,

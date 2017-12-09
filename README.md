@@ -71,6 +71,10 @@ import {typeOf} from 'comutils'
 #### &emsp;&emsp;[formatPassTime][formatPassTime]&emsp;&emsp;格式化时间戳为天时分秒[d,h,m,s]
 #### &emsp;&emsp;[formatTime][formatTime]&emsp;&emsp;格式化时间戳为年月日时分秒[y-m-d h:m:s]
 
+### device  
+#### &emsp;&emsp;[isWeixin][isWeixin]&emsp;&emsp;是否是微信浏览器
+#### &emsp;&emsp;[mobileType][mobileType]&emsp;&emsp;设备类型iphone or android
+
 ### localStorage
 #### &emsp;&emsp;[localStorageApi][localStorageApi]&emsp;&emsp;本地持久化存储
 ##### &emsp;&emsp;&emsp;&emsp;localStorageApi.set(name)
@@ -93,6 +97,8 @@ import {typeOf} from 'comutils'
 #### &emsp;&emsp;[parseQs][parseQs]&emsp;&emsp;url参数转对象
 #### &emsp;&emsp;[stringfyQs][stringfyQs]&emsp;&emsp;对象序列化
 
+[isWeixin]:https://github.com/chenxuan0000/comutils/blob/master/src/device/isWeixin.js
+[mobileType]:https://github.com/chenxuan0000/comutils/blob/master/src/device/mobileType.js
 [arrayEqual]:https://github.com/chenxuan0000/comutils/blob/master/src/array/arrayEqual.js
 [secretInfo]:https://github.com/chenxuan0000/comutils/blob/master/src/secret/secretInfo.js
 [typeOf]:https://github.com/chenxuan0000/comutils/blob/master/src/type/typeOf.js
