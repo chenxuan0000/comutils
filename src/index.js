@@ -18,9 +18,12 @@ const isPhoneNum = require('./regexp/isPhoneNum')
 const isUrl = require('./regexp/isUrl')
 const priceSubstr = require('./regexp/priceSubstr')
 
+const cookieApi = require('./cookie/cookie')
+
+const localStorageApi = require('./stroge/localStorage')
+
 const formatPassTime = require('./time/formatPassTime')
 const formatTime = require('./time/formatTime')
-
 
 const typeOf = require('./type/typeOf')
 const secretInfo = require('./secret/secretInfo')
@@ -43,6 +46,8 @@ module.exports = {
   isPhoneNum,
   isUrl,
   priceSubstr,
+  cookieApi,
+  localStorageApi,
   formatPassTime,
   formatTime,
   typeOf,

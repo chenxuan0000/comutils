@@ -9,7 +9,7 @@
 
 ## 安装使用
 
-1. 直接下载`min`目录下的[comutils.min.js](https://github.com/chenxuan0000/comutils/blob/master/build/comutils.min.js)使用，支持UMD通用模块规范  
+1. 直接下载`bulid`目录下的[comutils.min.js](https://github.com/chenxuan0000/comutils/blob/master/build/comutils.min.js)使用，支持UMD通用模块规范  
 2. 使用npm安装
 
 ### 浏览器:
@@ -69,6 +69,21 @@ import {hasClass} from 'comutils'
 #### &emsp;&emsp;[formatPassTime][formatPassTime]&emsp;&emsp;格式化时间戳为天时分秒[d,h,m,s]
 #### &emsp;&emsp;[formatTime][formatTime]&emsp;&emsp;格式化时间戳为年月日时分秒[y-m-d h:m:s]
 
+### localStorage
+#### &emsp;&emsp;[localStorageApi][localStorageApi]&emsp;&emsp;本地持久化存储
+##### &emsp;&emsp;localStorageApi.set(name)
+##### &emsp;&emsp;localStorageApi.get(name)
+##### &emsp;&emsp;localStorageApi.remove(name)
+##### &emsp;&emsp;localStorageApi.clear(name)
+
+### cookie
+#### &emsp;&emsp;[cookieApi][cookieApi]&emsp;&emsp;cookie存储(适用和服务端交互)
+##### &emsp;&emsp;cookieApi.set(name, value[, end[, path[, domain[, secure]]]])
+##### &emsp;&emsp;cookieApi.get(name)
+##### &emsp;&emsp;ookieApi.has(name)
+##### &emsp;&emsp;cookieApi.remove(name)
+##### &emsp;&emsp;cookieApi.keys()
+
 ### Type
 #### &emsp;&emsp;[typeOf][typeOf]&emsp;&emsp;判断类型
 
@@ -95,3 +110,5 @@ import {hasClass} from 'comutils'
 [formatTime]:https://github.com/chenxuan0000/comutils/blob/master/src/time/formatTime.js
 [parseQs]:https://github.com/chenxuan0000/comutils/blob/master/src/url/parseQueryString.js
 [stringfyQs]:https://github.com/chenxuan0000/comutils/blob/master/src/url/stringfyQueryString.js
+[localStorageApi]:https://github.com/chenxuan0000/comutils/blob/master/src/stroage/localStorage.js
+[cookieApi]:https://github.com/chenxuan0000/comutils/blob/master/src/cookie/cookie.js
