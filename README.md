@@ -72,6 +72,13 @@ import {typeOf} from 'comutils'
 #### &emsp;&emsp;[isWeixin][isWeixin]&emsp;&emsp;是否是微信浏览器
 #### &emsp;&emsp;[mobileType][mobileType]&emsp;&emsp;设备类型iphone or android
 
+### dome  
+#### &emsp;&emsp;[scrollApi][scrollApi]&emsp;&emsp;scrollApi方法
+##### &emsp;&emsp;&emsp;&emsp;scrollApi.getScrollTop()
+##### &emsp;&emsp;&emsp;&emsp;scrollApi.setScrollTop(h)
+##### &emsp;&emsp;&emsp;&emsp;scrollApi.scrollTo(to,duration)
+#### &emsp;&emsp;[softKeyCal][softKeyCal]&emsp;&emsp;移动端端软键盘呼出和消失的事件回调
+
 ### localStorage
 #### &emsp;&emsp;[localStorageApi][localStorageApi]&emsp;&emsp;本地持久化存储
 ##### &emsp;&emsp;&emsp;&emsp;localStorageApi.set(name)

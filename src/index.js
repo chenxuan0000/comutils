@@ -14,6 +14,7 @@ const isUrl = require('./regexp/isUrl')
 const priceSubstr = require('./regexp/priceSubstr')
 
 const cookieApi = require('./cookie/cookie')
+const scrollApi = require('./dom/scrollApi')
 
 const localStorageApi = require('./stroge/localStorage')
 
@@ -40,6 +41,7 @@ module.exports = {
   isUrl,
   priceSubstr,
   cookieApi,
+  scrollApi,
   localStorageApi,
   formatPassTime,
   formatTime,
