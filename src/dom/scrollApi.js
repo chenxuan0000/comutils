@@ -1,5 +1,5 @@
 /**
- * @desc   获取位置信息
+ * @desc  scroll滚动方法
  |*|  * scrollApi.getScrollTop()
  |*|  * scrollApi.setScrollTop(h)
  |*|  * scrollApi.scrollTo(to,duration)

@@ -1,8 +1,8 @@
 const path = require('path')
-const fs = require('fs')
 const ora = require('ora')
 const rm = require('rimraf')
 const chalk = require('chalk')
+const copy = require('copy')
 const webpack = require('webpack')
 
 const config = require('./webpack.conf')

@@ -72,7 +72,7 @@ import {typeOf} from 'comutils'
 #### &emsp;&emsp;[isWeixin][isWeixin]&emsp;&emsp;是否是微信浏览器
 #### &emsp;&emsp;[mobileType][mobileType]&emsp;&emsp;设备类型iphone or android
 
-### dome  
+### dom
 #### &emsp;&emsp;[scrollApi][scrollApi]&emsp;&emsp;scrollApi方法
 ##### &emsp;&emsp;&emsp;&emsp;scrollApi.getScrollTop()
 ##### &emsp;&emsp;&emsp;&emsp;scrollApi.setScrollTop(h)
