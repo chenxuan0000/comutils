@@ -101,6 +101,8 @@ import {typeOf} from 'comutils'
 #### &emsp;&emsp;[parseQs][parseQs]&emsp;&emsp;url参数转对象
 #### &emsp;&emsp;[stringfyQs][stringfyQs]&emsp;&emsp;对象序列化
 
+[scrollApi]:https://github.com/chenxuan0000/comutils/blob/master/src/dom/scrollApi.js
+[softKeyCal]:https://github.com/chenxuan0000/comutils/blob/master/src/dom/softKeyCal.js
 [isWeixin]:https://github.com/chenxuan0000/comutils/blob/master/src/device/isWeixin.js
 [mobileType]:https://github.com/chenxuan0000/comutils/blob/master/src/device/mobileType.js
 [secretInfo]:https://github.com/chenxuan0000/comutils/blob/master/src/secret/secretInfo.js
