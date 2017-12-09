@@ -28,7 +28,7 @@ $ npm install --save-dev comutils
 ``` javascript
 // 完整引入
 const comutils = require('comutils')
-const hasClass = comutils.hasClass(el,cls)
+const typeOf = comutils.typeOf([])
 ```
 
 **推荐使用方法**  
@@ -36,20 +36,22 @@ const hasClass = comutils.hasClass(el,cls)
 不需要完整引入所有函数，只引入需要使用的方法即可
 ``` javascript
 // 只引入部分方法('comutils/<方法名>')
-const hasClass = require('comutils/hasClass')
-const hasClass = hasClass()
-import {hasClass} from 'comutils'
+const typeOf = require('comutils/typeOf')
+const typeOf = typeOf()
+// import {}
+import {typeOf} from 'comutils'
 ```
 ## API文档
 ### Array  
 #### &emsp;&emsp;[arrayEqual][arrayEqual]&emsp;&emsp;判断两个数组是否相等 
 
 ### Class
-#### &emsp;&emsp;[isElement][addClass]&emsp;&emsp;判断元素是否为元素节点  
-#### &emsp;&emsp;[addClass][addClass]&emsp;&emsp;为元素添加class  
-#### &emsp;&emsp;[hasClass][hasClass]&emsp;&emsp;判断元素是否有某个class  
-#### &emsp;&emsp;[removeClass][removeClass]&emsp;&emsp;为元素移除class  
-#### &emsp;&emsp;[toogleClass][toogleClass]&emsp;&emsp;为元素添加/去除class  
+#### &emsp;&emsp;[classApi][classApi]&emsp;&emsp;className的操作api
+##### &emsp;&emsp;&emsp;&emsp;classApi.isElement(el) //是否元素节点
+##### &emsp;&emsp;&emsp;&emsp;classApi.hasClass(el,cls)
+##### &emsp;&emsp;&emsp;&emsp;classApi.addClass(el,cls)
+##### &emsp;&emsp;&emsp;&emsp;classApi.removeClass(el,cls)
+##### &emsp;&emsp;&emsp;&emsp;classApi.toggleClass(el,cls)
 
 ### Object  
 #### &emsp;&emsp;[deepClone][deepClone]&emsp;&emsp;深拷贝，支持常见类型
@@ -71,18 +73,18 @@ import {hasClass} from 'comutils'
 
 ### localStorage
 #### &emsp;&emsp;[localStorageApi][localStorageApi]&emsp;&emsp;本地持久化存储
-##### &emsp;&emsp;localStorageApi.set(name)
-##### &emsp;&emsp;localStorageApi.get(name)
-##### &emsp;&emsp;localStorageApi.remove(name)
-##### &emsp;&emsp;localStorageApi.clear(name)
+##### &emsp;&emsp;&emsp;&emsp;localStorageApi.set(name)
+##### &emsp;&emsp;&emsp;&emsp;localStorageApi.get(name)
+##### &emsp;&emsp;&emsp;&emsp;localStorageApi.remove(name)
+##### &emsp;&emsp;&emsp;&emsp;localStorageApi.clear(name)
 
 ### cookie
 #### &emsp;&emsp;[cookieApi][cookieApi]&emsp;&emsp;cookie存储(适用和服务端交互)
-##### &emsp;&emsp;cookieApi.set(name, value[, end[, path[, domain[, secure]]]])
-##### &emsp;&emsp;cookieApi.get(name)
-##### &emsp;&emsp;ookieApi.has(name)
-##### &emsp;&emsp;cookieApi.remove(name)
-##### &emsp;&emsp;cookieApi.keys()
+##### &emsp;&emsp;&emsp;&emsp;cookieApi.set(name, value[, end[, path[, domain[, secure]]]])
+##### &emsp;&emsp;&emsp;&emsp;cookieApi.get(name)
+##### &emsp;&emsp;&emsp;&emsp;cookieApi.has(name)
+##### &emsp;&emsp;&emsp;&emsp;cookieApi.remove(name)
+##### &emsp;&emsp;&emsp;&emsp;cookieApi.keys()
 
 ### Type
 #### &emsp;&emsp;[typeOf][typeOf]&emsp;&emsp;判断类型
@@ -94,11 +96,7 @@ import {hasClass} from 'comutils'
 [arrayEqual]:https://github.com/chenxuan0000/comutils/blob/master/src/array/arrayEqual.js
 [secretInfo]:https://github.com/chenxuan0000/comutils/blob/master/src/secret/secretInfo.js
 [typeOf]:https://github.com/chenxuan0000/comutils/blob/master/src/type/typeOf.js
-[addClass]:https://github.com/chenxuan0000/comutils/blob/master/src/class/addClass.js
-[hasClass]:https://github.com/chenxuan0000/comutils/blob/master/src/class/hasClass.js
-[removeClass]:https://github.com/chenxuan0000/comutils/blob/master/src/class/removeClass.js
-[isElement]:https://github.com/chenxuan0000/comutils/blob/master/src/class/isElement.js
-[toogleClass]:https://github.com/chenxuan0000/comutils/blob/master/src/class/toogleClass.js
+[classApi]:https://github.com/chenxuan0000/comutils/blob/master/src/class/classApi.js
 [deepClone]:https://github.com/chenxuan0000/comutils/blob/master/src/object/deepClone.js
 [isEmptyObject]:https://github.com/chenxuan0000/comutils/blob/master/src/object/isEmptyObject.js
 [isEmail]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/isEmail.js
@@ -110,5 +108,5 @@ import {hasClass} from 'comutils'
 [formatTime]:https://github.com/chenxuan0000/comutils/blob/master/src/time/formatTime.js
 [parseQs]:https://github.com/chenxuan0000/comutils/blob/master/src/url/parseQueryString.js
 [stringfyQs]:https://github.com/chenxuan0000/comutils/blob/master/src/url/stringfyQueryString.js
-[localStorageApi]:https://github.com/chenxuan0000/comutils/blob/master/src/stroage/localStorage.js
+[localStorageApi]:https://github.com/chenxuan0000/comutils/blob/master/src/stroge/localStorage.js
 [cookieApi]:https://github.com/chenxuan0000/comutils/blob/master/src/cookie/cookie.js

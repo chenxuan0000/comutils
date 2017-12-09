@@ -7,14 +7,14 @@
 
 const localStorageApi = {
   // time有效期 默认是半小时传入ms
-  set: (key, val, time = +new Date() + 0.5 * 3600 * 1000) => {
+  set: function (key, val, time = +new Date() + 0.5 * 3600 * 1000) {
     let cacheVal = {
       val: val,
       exp: time
     }
     localStorage.setItem(key, JSON.stringify(cacheVal))
   },
-  get: (key) => {
+  get: function (key) {
     let cacheVal = localStorage.getItem(key)
     if (!cacheVal) return ''
     let result = JSON.parse(cacheVal)
@@ -24,10 +24,10 @@ const localStorageApi = {
     }
     return result.val
   },
-  remove: (key) => {
+  remove: function (key) {
     localStorage.removeItem(key)
   },
-  clear: () => {
+  clear: function () {
     localStorage.clear()
   }
 }

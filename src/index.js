@@ -1,13 +1,9 @@
 /**
- * @desc webpack打包入口文件
+ * @desc webpack打包入口
  */
 const arrayEqual = require('./array/arrayEqual')
 
-const addClass = require('./class/addClass')
-const hasClass = require('./class/hasClass')
-const removeClass = require('./class/removeClass')
-const isElement = require('./class/isElement')
-const toggleClass = require('./class/toggleClass')
+const classApi = require('./class/classApi')
 
 const deepClone = require('./object/deepClone')
 const isEmptyObject = require('./object/isEmptyObject')
@@ -34,11 +30,7 @@ const stringfyQs = require('./url/stringfyQs')
 
 module.exports = {
   arrayEqual,
-  isElement,
-  addClass,
-  hasClass,
-  removeClass,
-  toggleClass,
+  classApi,
   deepClone,
   isEmptyObject,
   isEmail,
