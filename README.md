@@ -42,9 +42,6 @@ const typeOf = typeOf()
 import {typeOf} from 'comutils'
 ```
 ## API文档
-### Array  
-#### &emsp;&emsp;[arrayEqual][arrayEqual]&emsp;&emsp;判断两个数组是否相等 
-
 ### Class
 #### &emsp;&emsp;[classApi][classApi]&emsp;&emsp;className的操作api
 ##### &emsp;&emsp;&emsp;&emsp;classApi.isElement(el) //是否元素节点
@@ -99,7 +96,6 @@ import {typeOf} from 'comutils'
 
 [isWeixin]:https://github.com/chenxuan0000/comutils/blob/master/src/device/isWeixin.js
 [mobileType]:https://github.com/chenxuan0000/comutils/blob/master/src/device/mobileType.js
-[arrayEqual]:https://github.com/chenxuan0000/comutils/blob/master/src/array/arrayEqual.js
 [secretInfo]:https://github.com/chenxuan0000/comutils/blob/master/src/secret/secretInfo.js
 [typeOf]:https://github.com/chenxuan0000/comutils/blob/master/src/type/typeOf.js
 [classApi]:https://github.com/chenxuan0000/comutils/blob/master/src/class/classApi.js
@@ -112,7 +108,7 @@ import {typeOf} from 'comutils'
 [priceSubstr]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/priceSubstr.js
 [formatPassTime]:https://github.com/chenxuan0000/comutils/blob/master/src/time/formatPassTime.js
 [formatTime]:https://github.com/chenxuan0000/comutils/blob/master/src/time/formatTime.js
-[parseQs]:https://github.com/chenxuan0000/comutils/blob/master/src/url/parseQueryString.js
-[stringfyQs]:https://github.com/chenxuan0000/comutils/blob/master/src/url/stringfyQueryString.js
+[parseQs]:https://github.com/chenxuan0000/comutils/blob/master/src/url/parseQs.js
+[stringfyQs]:https://github.com/chenxuan0000/comutils/blob/master/src/url/stringfyQs.js
 [localStorageApi]:https://github.com/chenxuan0000/comutils/blob/master/src/stroge/localStorage.js
 [cookieApi]:https://github.com/chenxuan0000/comutils/blob/master/src/cookie/cookie.js

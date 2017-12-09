@@ -1,7 +1,6 @@
 /**
  * @desc webpack打包入口
  */
-const arrayEqual = require('./array/arrayEqual')
 
 const classApi = require('./class/classApi')
 
@@ -32,7 +31,6 @@ const stringfyQs = require('./url/stringfyQs')
 
 
 module.exports = {
-  arrayEqual,
   classApi,
   deepClone,
   isEmptyObject,
