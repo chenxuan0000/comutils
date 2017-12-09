@@ -5,14 +5,12 @@
  
 前端代码常用工具类  
 
-> 目的：集成前端常用util方法代码
+> 目的：集成前端常用工具类
 
 ## 安装使用
 
 1. 直接下载`bulid`目录下的[comutils.min.js](https://github.com/chenxuan0000/comutils/blob/master/build/comutils.min.js)使用，支持UMD通用模块规范  
-2. 使用npm安装
 
-### 浏览器:
 ``` html
   <script src="comutils.min.js"></script>
   <script>
@@ -20,15 +18,9 @@
   </script>
 ```
 
-### npm:
+2. 使用npm安装
 ``` bash
 $ npm install --save-dev comutils
-```
-
-``` javascript
-// 完整引入
-const comutils = require('comutils')
-const typeOf = comutils.typeOf([])
 ```
 
 **推荐使用方法**  
@@ -36,11 +28,9 @@ const typeOf = comutils.typeOf([])
 不需要完整引入所有函数，只引入需要使用的方法即可
 ``` javascript
 // 只引入部分方法('comutils/<方法名>')
-const typeOf = require('comutils/typeOf')
-const typeOf = typeOf()
-// import {}
 import {typeOf} from 'comutils'
 ```
+
 ## API文档
 ### Class
 #### &emsp;&emsp;[classApi][classApi]&emsp;&emsp;className的操作api
