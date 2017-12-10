@@ -5,7 +5,6 @@
 const classApi = require('./class/classApi')
 
 const deepClone = require('./object/deepClone')
-const isEmptyObject = require('./object/isEmptyObject')
 
 const isEmail = require('./regexp/isEmail')
 const isIdCard = require('./regexp/isIdCard')
@@ -34,7 +33,6 @@ const stringfyQs = require('./url/stringfyQs')
 module.exports = {
   classApi,
   deepClone,
-  isEmptyObject,
   isEmail,
   isIdCard,
   isPhoneNum,
