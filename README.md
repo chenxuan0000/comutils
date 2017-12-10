@@ -42,7 +42,6 @@ import {typeOf} from 'comutils'
 
 ### Object  
 #### &emsp;&emsp;[deepClone][deepClone]&emsp;&emsp;深拷贝，支持常见类型
-#### &emsp;&emsp;[isEmptyObject][isEmptyObject]&emsp;&emsp;判断Object是否为空
 
 ### Regexp  
 #### &emsp;&emsp;[isEmail][isEmail]&emsp;&emsp;判断是否为邮箱地址 
@@ -99,7 +98,6 @@ import {typeOf} from 'comutils'
 [typeOf]:https://github.com/chenxuan0000/comutils/blob/master/src/type/typeOf.js
 [classApi]:https://github.com/chenxuan0000/comutils/blob/master/src/class/classApi.js
 [deepClone]:https://github.com/chenxuan0000/comutils/blob/master/src/object/deepClone.js
-[isEmptyObject]:https://github.com/chenxuan0000/comutils/blob/master/src/object/isEmptyObject.js
 [isEmail]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/isEmail.js
 [isIdCard]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/isIdCard.js
 [isPhoneNum]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/isPhoneNum.js
