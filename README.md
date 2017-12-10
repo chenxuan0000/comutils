@@ -1,5 +1,5 @@
-# comutils
-
+# comutils &emsp;[![GitHub forks](https://img.shields.io/github/forks/chenxuan0000/comutils.svg?style=social&label=Fork)]()[![GitHub stars](https://img.shields.io/github/stars/chenxuan0000/comutils.svg?style=social&label=Stars)]()
+[![npm](https://img.shields.io/npm/dw/chenxuan0000/comutils.svg)]()
 [![Build Status](https://img.shields.io/appveyor/ci/gruntjs/grunt/master.svg) ![LICENSE MIT](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/comutils) ![](https://img.shields.io/npm/v/comutils.svg)
 
  
@@ -98,6 +98,7 @@ import {typeOf} from 'comutils'
 [typeOf]:https://github.com/chenxuan0000/comutils/blob/master/src/type/typeOf.js
 [classApi]:https://github.com/chenxuan0000/comutils/blob/master/src/class/classApi.js
 [deepClone]:https://github.com/chenxuan0000/comutils/blob/master/src/object/deepClone.js
+[isEmptyObject]:https://github.com/chenxuan0000/comutils/blob/master/src/object/isEmptyObject.js
 [isEmail]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/isEmail.js
 [isIdCard]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/isIdCard.js
 [isPhoneNum]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/isPhoneNum.js
