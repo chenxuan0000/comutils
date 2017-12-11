@@ -1,4 +1,4 @@
-# comutils &emsp;[![GitHub forks](https://img.shields.io/github/forks/chenxuan0000/comutils.svg?style=social&label=Fork)]()[![GitHub stars](https://img.shields.io/github/stars/chenxuan0000/comutils.svg?style=social&label=Stars)]()
+# comutils &emsp;[![GitHub forks](https://img.shields.io/github/forks/chenxuan0000/comutils.svg?style=social&label=Fork)](https://www.npmjs.com/package/comutils)[![GitHub stars](https://img.shields.io/github/stars/chenxuan0000/comutils.svg?style=social&label=Stars)](https://www.npmjs.com/package/comutils)
 [![npm](https://img.shields.io/npm/dw/chenxuan0000/comutils.svg)]()
 [![Build Status](https://img.shields.io/appveyor/ci/gruntjs/grunt/master.svg) ![LICENSE MIT](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/comutils) ![](https://img.shields.io/npm/v/comutils.svg)
 
@@ -41,7 +41,7 @@ import {typeOf} from 'comutils'
 ##### &emsp;&emsp;&emsp;&emsp;classApi.toggleClass(el,cls)
 
 ### Object  
-#### &emsp;&emsp;[deepClone][deepClone]&emsp;&emsp;深拷贝，支持常见类型
+#### &emsp;&emsp;[copyObj][copyObj]&emsp;&emsp;深拷贝，支持常见类型
 
 ### Regexp  
 #### &emsp;&emsp;[isEmail][isEmail]&emsp;&emsp;判断是否为邮箱地址 
@@ -97,8 +97,7 @@ import {typeOf} from 'comutils'
 [secretInfo]:https://github.com/chenxuan0000/comutils/blob/master/src/secret/secretInfo.js
 [typeOf]:https://github.com/chenxuan0000/comutils/blob/master/src/type/typeOf.js
 [classApi]:https://github.com/chenxuan0000/comutils/blob/master/src/class/classApi.js
-[deepClone]:https://github.com/chenxuan0000/comutils/blob/master/src/object/deepClone.js
-[isEmptyObject]:https://github.com/chenxuan0000/comutils/blob/master/src/object/isEmptyObject.js
+[copyObj]:https://github.com/chenxuan0000/comutils/blob/master/src/object/copyObj.js
 [isEmail]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/isEmail.js
 [isIdCard]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/isIdCard.js
 [isPhoneNum]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/isPhoneNum.js
