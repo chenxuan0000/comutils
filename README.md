@@ -87,7 +87,7 @@ import {typeOf} from 'comutils'
 #### &emsp;&emsp;[typeOf][typeOf]&emsp;&emsp;判断类型
 
 ### Url
-#### &emsp;&emsp;[parseQs][parseQs]&emsp;&emsp;url参数转对象
+#### &emsp;&emsp;[getUrlParams][getUrlParams]&emsp;&emsp;url参数转对象
 #### &emsp;&emsp;[stringfyQs][stringfyQs]&emsp;&emsp;对象序列化
 
 [scrollApi]:https://github.com/chenxuan0000/comutils/blob/master/src/dom/scrollApi.js
@@ -105,7 +105,7 @@ import {typeOf} from 'comutils'
 [priceSubstr]:https://github.com/chenxuan0000/comutils/blob/master/src/regexp/priceSubstr.js
 [formatPassTime]:https://github.com/chenxuan0000/comutils/blob/master/src/time/formatPassTime.js
 [formatTime]:https://github.com/chenxuan0000/comutils/blob/master/src/time/formatTime.js
-[parseQs]:https://github.com/chenxuan0000/comutils/blob/master/src/url/parseQs.js
+[getUrlParams]:https://github.com/chenxuan0000/comutils/blob/master/src/url/getUrlParams.js
 [stringfyQs]:https://github.com/chenxuan0000/comutils/blob/master/src/url/stringfyQs.js
 [localStorageApi]:https://github.com/chenxuan0000/comutils/blob/master/src/stroge/localStorage.js
 [cookieApi]:https://github.com/chenxuan0000/comutils/blob/master/src/cookie/cookie.js

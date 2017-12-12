@@ -26,7 +26,7 @@ const mobileType = require('./device/mobileType')
 const typeOf = require('./type/typeOf')
 const secretInfo = require('./secret/secretInfo')
 
-const parseQs = require('./url/parseQs')
+const getUrlParams = require('./url/getUrlParams')
 const stringfyQs = require('./url/stringfyQs')
 
 
@@ -47,6 +47,6 @@ module.exports = {
   mobileType,
   typeOf,
   secretInfo,
-  parseQs,
+  getUrlParams,
   stringfyQs
 }
