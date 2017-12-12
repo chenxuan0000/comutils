@@ -41,7 +41,7 @@ import {typeOf} from 'comutils'
 ##### &emsp;&emsp;&emsp;&emsp;classApi.toggleClass(el,cls)
 
 ### Object  
-#### &emsp;&emsp;[copyObj][copyObj]&emsp;&emsp;深拷贝，支持常见类型
+#### &emsp;&emsp;[copyObj][copyObj]&emsp;&emsp;对象合并/深浅拷贝
 
 ### Regexp  
 #### &emsp;&emsp;[isEmail][isEmail]&emsp;&emsp;判断是否为邮箱地址 
