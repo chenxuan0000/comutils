@@ -1,6 +1,6 @@
 {
   "name": "comutils",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "前端代码常用工具类",
   "main": "build/comutils.min.js",
   "scripts": {
