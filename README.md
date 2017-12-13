@@ -14,7 +14,7 @@
 ``` html
   <script src="comutils.min.js"></script>
   <script>
-      var hasClass = comutils.hasClass(el,cls)
+      var copyObj = comutils.copyObj(obj1,obj2)
   </script>
 ```
 
@@ -61,6 +61,10 @@ import {typeOf} from 'comutils'
 #### &emsp;&emsp;[isWeixin][isWeixin]&emsp;&emsp;是否是微信浏览器
 #### &emsp;&emsp;[mobileType][mobileType]&emsp;&emsp;设备类型iphone or android
 
+### function  
+#### &emsp;&emsp;[throttle][throttle]&emsp;&emsp;节流函数
+#### &emsp;&emsp;[debounce][debounce]&emsp;&emsp;防抖函数
+
 ### dom
 #### &emsp;&emsp;[scrollApi][scrollApi]&emsp;&emsp;scrollApi方法
 ##### &emsp;&emsp;&emsp;&emsp;scrollApi.getScrollTop()
@@ -90,6 +94,16 @@ import {typeOf} from 'comutils'
 #### &emsp;&emsp;[getUrlParams][getUrlParams]&emsp;&emsp;url参数转对象
 #### &emsp;&emsp;[stringfyQs][stringfyQs]&emsp;&emsp;对象序列化
 
+### random 
+#### &emsp;&emsp;[getRandom][getRandom]&emsp;&emsp;返回选定返回的随机整数
+
+### collections 
+#### &emsp;&emsp;[shuffle][shuffle]&emsp;&emsp;数组打乱随机乱序
+
+[getRandom]:https://github.com/chenxuan0000/comutils/blob/master/src/random/getRandom.js
+[shuffle]:https://github.com/chenxuan0000/comutils/blob/master/src/collections/shuffle.js
+[throttle]:https://github.com/chenxuan0000/comutils/blob/master/src/function/throttle.js
+[debounce]:https://github.com/chenxuan0000/comutils/blob/master/src/function/debounce.js
 [scrollApi]:https://github.com/chenxuan0000/comutils/blob/master/src/dom/scrollApi.js
 [softKeyCal]:https://github.com/chenxuan0000/comutils/blob/master/src/dom/softKeyCal.js
 [isWeixin]:https://github.com/chenxuan0000/comutils/blob/master/src/device/isWeixin.js

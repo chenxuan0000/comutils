@@ -8,10 +8,19 @@
         <div id="dd" class="txt" style="height: 1500px;background-color:blue;">
             <div id="yy"
                  style="position: absolute;left: 100px;top: 155px;width: 100px;height: 100px;background-color:#fff;"></div>
+            <input type="text" style="width: 300px;height: 30px" id="test">
         </div>
     </body>
     <script src="build/comutils.min.js"></script>
     <script>
-      console.log(comutils.copyObj({a:1},{c:11}))
+      console.log(comutils.copyObj({a: 1}, {c: 11}))
+      window.onscroll = comutils.throttle(function () {
+        console.log(11)
+      }, 1000)
+
+      document.getElementById('yy').addEventListener('click', comutils.debounce(function () {
+        console.log(11)
+      }, 1000))
+      console.log(comutils.shuffle([12,44,555,666,777,000]))
     </script>
 </html>

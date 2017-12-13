@@ -20,6 +20,9 @@ const localStorageApi = require('./stroge/localStorage')
 const formatPassTime = require('./time/formatPassTime')
 const formatTime = require('./time/formatTime')
 
+const throttle = require('./function/throttle')
+const debounce = require('./function/debounce')
+
 const isWeixin = require('./device/isWeixin')
 const mobileType = require('./device/mobileType')
 
@@ -28,6 +31,8 @@ const secretInfo = require('./secret/secretInfo')
 
 const getUrlParams = require('./url/getUrlParams')
 const stringfyQs = require('./url/stringfyQs')
+const getRandom = require('./random/getRandom')
+const shuffle = require('./collections/shuffle')
 
 
 module.exports = {
@@ -43,10 +48,14 @@ module.exports = {
   localStorageApi,
   formatPassTime,
   formatTime,
+  throttle,
+  debounce,
   isWeixin,
   mobileType,
   typeOf,
   secretInfo,
   getUrlParams,
-  stringfyQs
+  stringfyQs,
+  getRandom,
+  shuffle
 }

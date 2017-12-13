@@ -7,7 +7,6 @@ function copyObj () {
     target = arguments[0] || {}, // 使用||运算符，排除隐式强制类型转换为false的数据类型
     deep = false,
     len = arguments.length;
-  console.log(arguments)
   if (typeof target === 'boolean') {
     deep = target;
     target = arguments[1] || {};
