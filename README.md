@@ -27,8 +27,9 @@ $ npm install --save-dev comutils
 
 不需要完整引入所有函数，只引入需要使用的方法即可
 ``` javascript
-// 只引入部分方法('comutils/<方法名>')
-import {typeOf} from 'comutils'
+// 只引入部分方法('outils/<方法名>')
+const isUrl = require('outils/isUrl')
+const isUrl = isUrl()
 ```
 
 ## API文档

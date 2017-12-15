@@ -5,6 +5,7 @@
   "main": "build/comutils.min.js",
   "scripts": {
     "build": "node script/build.js",
+    "singleCopy": "node script/singleCopy.js",
     "jsBabel":"babel src -d babelLib",
     "test": "karma start script/karma.conf.js"
   },
@@ -24,6 +25,7 @@
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "chalk": "^2.3.0",
+    "copy": "^0.3.1",
     "karma": "^1.7.1",
     "karma-chrome-launcher": "^2.2.0",
     "karma-coverage": "^1.1.1",
