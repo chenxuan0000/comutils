@@ -33,6 +33,8 @@ const getUrlParams = require('./url/getUrlParams')
 const stringfyQs = require('./url/stringfyQs')
 const getRandom = require('./random/getRandom')
 const shuffle = require('./collections/shuffle')
+const arrayEqual = require('./array/arrayEqual')
+const animationFrame = require('./animationFrame/animationFrame')
 
 
 module.exports = {
@@ -57,5 +59,7 @@ module.exports = {
   getUrlParams,
   stringfyQs,
   getRandom,
-  shuffle
+  shuffle,
+  arrayEqual,
+  animationFrame
 }

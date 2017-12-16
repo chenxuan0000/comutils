@@ -18,6 +18,10 @@
         console.log(11)
       }, 1000)
 
+      setTimeout(function () {
+        comutils.scrollApi.scrollTo(300,600)
+      },1500)
+
       document.getElementById('yy').addEventListener('click', comutils.debounce(function () {
         console.log(11)
       }, 1000))

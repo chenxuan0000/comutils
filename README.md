@@ -101,6 +101,14 @@ const isUrl = isUrl()
 ### collections 
 #### &emsp;&emsp;[shuffle][shuffle]&emsp;&emsp;数组打乱随机乱序
 
+### array 
+#### &emsp;&emsp;[arrayEqual][arrayEqual]&emsp;&emsp;判断数组是否相等
+
+### animationFrame 
+#### &emsp;&emsp;[animationFrame][animationFrame]&emsp;&emsp;AnimationFrame简单兼容hack
+
+[arrayEqual]:https://github.com/chenxuan0000/comutils/blob/master/src/arrayEqual.js
+[animationFrame]:https://github.com/chenxuan0000/comutils/blob/master/src/animationFrame/animationFrame.js
 [getRandom]:https://github.com/chenxuan0000/comutils/blob/master/src/random/getRandom.js
 [shuffle]:https://github.com/chenxuan0000/comutils/blob/master/src/collections/shuffle.js
 [throttle]:https://github.com/chenxuan0000/comutils/blob/master/src/function/throttle.js

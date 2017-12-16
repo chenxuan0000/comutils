@@ -4,6 +4,11 @@
  |*|  * scrollApi.setScrollTop(h)
  |*|  * scrollApi.scrollTo(to,duration)
  */
+var requestAnimationFrame = function () {
+  return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || function (callback) {
+    window.setTimeout(callback, 1000 / 60);
+  };
+}();
 
 var scrollApi = {
   getScrollTop: function getScrollTop() {
