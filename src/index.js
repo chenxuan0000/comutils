@@ -25,6 +25,7 @@ const debounce = require('./function/debounce')
 
 const isWeixin = require('./device/isWeixin')
 const mobileType = require('./device/mobileType')
+const getOs = require('./device/getOs')
 
 const typeOf = require('./type/typeOf')
 const secretInfo = require('./secret/secretInfo')
@@ -47,6 +48,7 @@ module.exports = {
   priceSubstr,
   cookieApi,
   scrollApi,
+  getOs,
   localStorageApi,
   formatPassTime,
   formatTime,

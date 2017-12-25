@@ -61,6 +61,7 @@ const isUrl = isUrl()
 ### device  
 #### &emsp;&emsp;[isWeixin][isWeixin]&emsp;&emsp;是否是微信浏览器
 #### &emsp;&emsp;[mobileType][mobileType]&emsp;&emsp;设备类型iphone or android
+#### &emsp;&emsp;[getOs][getOs]&emsp;&emsp;是否是手机mobile or web
 
 ### function  
 #### &emsp;&emsp;[throttle][throttle]&emsp;&emsp;节流函数
@@ -117,6 +118,7 @@ const isUrl = isUrl()
 [softKeyCal]:https://github.com/chenxuan0000/comutils/blob/master/src/dom/softKeyCal.js
 [isWeixin]:https://github.com/chenxuan0000/comutils/blob/master/src/device/isWeixin.js
 [mobileType]:https://github.com/chenxuan0000/comutils/blob/master/src/device/mobileType.js
+[getOs]:https://github.com/chenxuan0000/comutils/blob/master/src/device/getOs.js
 [secretInfo]:https://github.com/chenxuan0000/comutils/blob/master/src/secret/secretInfo.js
 [typeOf]:https://github.com/chenxuan0000/comutils/blob/master/src/type/typeOf.js
 [classApi]:https://github.com/chenxuan0000/comutils/blob/master/src/class/classApi.js
