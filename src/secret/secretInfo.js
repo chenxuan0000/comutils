@@ -8,10 +8,10 @@
 const typeOf = require('../type/typeOf')
 
 const secretInfo = (personInfo, left = 3, right = 3, replace = '*') => {
-  if (typeOf(personInfo) === 'number') {
+  if (typeOf(personInfo) === 'Number') {
     personInfo = '' + personInfo
   }
-  if (typeOf(personInfo) !== 'string') {
+  if (typeOf(personInfo) !== 'String') {
     throw new Error('参数类型错误')
   }
   if (personInfo.length < 7) {

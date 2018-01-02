@@ -8,8 +8,8 @@
 var typeOf = require('../type/typeOf');
 var softKeyCal = function softKeyCal(downCb, upCb) {
 	var clientHeight = window.innerHeight;
-	downCb = typeOf(downCb) === 'function' ? downCb : function () {};
-	upCb = typeOf(upCb) === 'function' ? upCb : function () {};
+	downCb = typeOf(downCb) === 'Function' ? downCb : function () {};
+	upCb = typeOf(upCb) === 'Function' ? upCb : function () {};
 	window.addEventListener('resize', function () {
 		var height = window.innerHeight;
 		if (height === clientHeight) {

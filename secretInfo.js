@@ -12,10 +12,10 @@ var secretInfo = function secretInfo(personInfo) {
   var right = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 3;
   var replace = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : '*';
 
-  if (typeOf(personInfo) === 'number') {
+  if (typeOf(personInfo) === 'Number') {
     personInfo = '' + personInfo;
   }
-  if (typeOf(personInfo) !== 'string') {
+  if (typeOf(personInfo) !== 'String') {
     throw new Error('参数类型错误');
   }
   if (personInfo.length < 7) {
