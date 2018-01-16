@@ -2,22 +2,28 @@
  * @desc AnimationFrame简单兼容hack
  */
 const animationFrame = () => {
-  window.requestAnimFrame = (function () {
-    return window.requestAnimationFrame ||
-      window.webkitRequestAnimationFrame ||
-      window.mozRequestAnimationFrame ||
-      function (callback) {
-        window.setTimeout(callback, 1000 / 60)
-      }
-  })()
   window.cancelAnimationFrame = (function () {
     return window.cancelAnimationFrame ||
       window.webkitCancelAnimationFrame ||
       window.mozCancelAnimationFrame ||
+      window.oCancelAnimationFrame ||
+      window.msCancelAnimationFrame ||
       function (id) {
-        clearTimeout(id)
-      }
+        return window.clearTimeout(id);
+      };
   })()
+  window.requestAnimationFrame = function () {
+    return (
+      window.requestAnimationFrame ||
+      window.webkitRequestAnimationFrame ||
+      window.mozRequestAnimationFrame ||
+      window.oRequestAnimationFrame ||
+      window.msRequestAnimationFrame ||
+      function (callback) {
+        return window.setTimeout(callback, 1000 / 60);
+      }
+    );
+  }();
 }
 
 module.exports = animationFrame
