@@ -3,16 +3,21 @@
  * @param {Array} arr
  * @return {Array} res
  */
-var getRandom = require('../random/getRandom');
+// const getRandom = require('../random/getRandom')
+// const shuffle = (arr) => {
+//   let _arr = arr.slice()
+//   for (let i = 0, len = _arr.length; i < len; i++) {
+//     let j = getRandom(0, i)
+//     let t = _arr[i]
+//     _arr[i] = _arr[j]
+//     _arr[j] = t
+//   }
+//   return _arr
+// };
 var shuffle = function shuffle(arr) {
-  var _arr = arr.slice();
-  for (var i = 0, len = _arr.length; i < len; i++) {
-    var j = getRandom(0, i);
-    var t = _arr[i];
-    _arr[i] = _arr[j];
-    _arr[j] = t;
-  }
-  return _arr;
+  return arr.sort(function () {
+    return 0.5 - Math.random();
+  });
 };
 
 module.exports = shuffle;
