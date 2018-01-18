@@ -108,6 +108,9 @@ const isUrl = isUrl()
 ### animationFrame 
 #### &emsp;&emsp;[animationFrame][animationFrame]&emsp;&emsp;AnimationFrame简单兼容hack
 
+### prefixStyle 
+#### &emsp;&emsp;[prefixStyle][prefixStyle]&emsp;&emsp;prefixStyle css针对不同浏览器加前缀
+
 [arrayEqual]:https://github.com/chenxuan0000/comutils/blob/master/src/arrayEqual.js
 [animationFrame]:https://github.com/chenxuan0000/comutils/blob/master/src/animationFrame/animationFrame.js
 [getRandom]:https://github.com/chenxuan0000/comutils/blob/master/src/random/getRandom.js
@@ -134,3 +137,4 @@ const isUrl = isUrl()
 [stringfyQs]:https://github.com/chenxuan0000/comutils/blob/master/src/url/stringfyQs.js
 [localStorageApi]:https://github.com/chenxuan0000/comutils/blob/master/src/stroge/localStorage.js
 [cookieApi]:https://github.com/chenxuan0000/comutils/blob/master/src/cookie/cookie.js
+[prefixStyle]:https://github.com/chenxuan0000/comutils/blob/master/src/prefixStyle/prefixStyle.js

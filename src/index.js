@@ -36,6 +36,7 @@ const getRandom = require('./random/getRandom')
 const shuffle = require('./collections/shuffle')
 const arrayEqual = require('./array/arrayEqual')
 const animationFrame = require('./animationFrame/animationFrame')
+const prefixStyle = require('./prefixStyle/prefixStyle')
 
 
 module.exports = {
@@ -63,5 +64,6 @@ module.exports = {
   getRandom,
   shuffle,
   arrayEqual,
-  animationFrame
+  animationFrame,
+  prefixStyle
 }
