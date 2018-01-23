@@ -4,6 +4,11 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
  * @desc 深浅合并拷贝
  */
 function copyObj() {
+  if (!Array.isArray) {
+    Array.isArray = function (arg) {
+      return Object.prototype.toString.call(arg) === '[object Array]';
+    };
+  }
   var name = void 0,
       options = void 0,
       src = void 0,

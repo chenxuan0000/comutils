@@ -2,6 +2,11 @@
  * @desc 深浅合并拷贝
  */
 function copyObj () {
+  if (!Array.isArray) {
+    Array.isArray = function (arg) {
+      return Object.prototype.toString.call(arg) === '[object Array]'
+    };
+  }
   let name, options, src, copy, copyIsArray, clone,
     i = 1,
     target = arguments[0] || {}, // 使用||运算符，排除隐式强制类型转换为false的数据类型
