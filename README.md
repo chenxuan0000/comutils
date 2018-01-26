@@ -111,7 +111,7 @@ const isUrl = isUrl()
 ### prefixStyle 
 #### &emsp;&emsp;[prefixStyle][prefixStyle]&emsp;&emsp;prefixStyle css针对不同浏览器加前缀
 
-[arrayEqual]:https://github.com/chenxuan0000/comutils/blob/master/src/arrayEqual.js
+[arrayEqual]:https://github.com/chenxuan0000/comutils/blob/master/src/array/arrayEqual.js
 [animationFrame]:https://github.com/chenxuan0000/comutils/blob/master/src/animationFrame/animationFrame.js
 [getRandom]:https://github.com/chenxuan0000/comutils/blob/master/src/random/getRandom.js
 [shuffle]:https://github.com/chenxuan0000/comutils/blob/master/src/collections/shuffle.js
