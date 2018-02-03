@@ -1,7 +1,8 @@
 /**
  * @desc   千位分割方法
- * @param  {String}  num
- * @param  {String}  gap
+ * @param  {String,Number}  num
+ * @param  {Number}  n
+ * @param  {String}  symbol
  * @return {String}
  */
 // (123456789.11).toLocaleString('en-US')  ie11+ 兼容性不好
