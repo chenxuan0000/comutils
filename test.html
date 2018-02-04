@@ -13,7 +13,7 @@
     </body>
     <script src="build/comutils.min.js"></script>
     <script>
-      console.log(comutils.copyObj({a: 1}, {c: 11}))
+      console.log(comutils.formatTime(new Date(),'yyyy年MM月dd日 hh-mm-ss'))
       window.onscroll = comutils.throttle(function () {
         console.log(11)
       }, 1000)

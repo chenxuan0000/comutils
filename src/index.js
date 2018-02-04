@@ -17,7 +17,6 @@ const scrollApi = require('./dom/scrollApi')
 
 const localStorageApi = require('./stroge/localStorage')
 
-const formatPassTime = require('./time/formatPassTime')
 const formatTime = require('./time/formatTime')
 
 const throttle = require('./function/throttle')
@@ -51,7 +50,6 @@ module.exports = {
   scrollApi,
   getOs,
   localStorageApi,
-  formatPassTime,
   formatTime,
   throttle,
   debounce,

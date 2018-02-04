@@ -1,27 +1,32 @@
 /**
  * @desc   格式化时间戳为年月日时分秒
- * @param  {Date} t
- * @param  {String} leftBreak
- * @param  {String} rightBreak
+ * @param  {Number,Date} date
+ * @param  {String} fmt
  * @return {String}
  */
-const formatTime = (t, leftBreak = '-', rightBreak = ':') => {
-  if (!t) {
-    return '----'
+
+function isDate (o) {
+  return Object.prototype.toString.call(o) === '[object Date]'
+}
+
+const formatTime = (date, fmt) => {
+  if (isDate(date) === false) {
+    date = new Date(+date)
   }
-  let date = new Date(t)
-  let y = date.getFullYear()
-  let m = date.getMonth() + 1
-  let d = date.getDate()
-  let h = date.getHours()
-  let i = date.getMinutes()
-  let s = date.getSeconds()
-  m = m < 10 ? '0' + m : m
-  d = d < 10 ? '0' + d : d
-  h = h < 10 ? '0' + h : h
-  i = i < 10 ? '0' + i : i
-  s = s < 10 ? '0' + s : s
-  return `${y}${leftBreak}${m}${leftBreak}${d} ${h}${rightBreak}${i}${rightBreak}${s}`
+  const o = {
+    'M+': date.getMonth() + 1,
+    'd+': date.getDate(),
+    'h+': date.getHours(),
+    'm+': date.getMinutes(),
+    's+': date.getSeconds(),
+    'q+': Math.floor((date.getMonth() + 3) / 3),
+    'S': date.getMilliseconds()
+  };
+  if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (date.getFullYear() + '').substr(4 - RegExp.$1.length))
+  for (let k in o) {
+    if (new RegExp('(' + k + ')').test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (('00' + o[k]).substr(('' + o[k]).length)))
+  }
+  return fmt
 }
 
 module.exports = formatTime
