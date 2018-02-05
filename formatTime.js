@@ -9,7 +9,9 @@ function isDate(o) {
   return Object.prototype.toString.call(o) === '[object Date]';
 }
 
-var formatTime = function formatTime(date, fmt) {
+var formatTime = function formatTime(date) {
+  var fmt = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'yyyy-MM-dd hh:mm:ss';
+
   if (isDate(date) === false) {
     date = new Date(+date);
   }

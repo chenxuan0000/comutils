@@ -9,7 +9,7 @@ function isDate (o) {
   return Object.prototype.toString.call(o) === '[object Date]'
 }
 
-const formatTime = (date, fmt) => {
+const formatTime = (date, fmt = 'yyyy-MM-dd hh:mm:ss') => {
   if (isDate(date) === false) {
     date = new Date(+date)
   }
