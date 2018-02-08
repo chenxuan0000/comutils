@@ -8,7 +8,6 @@
 /.babelrc
 /.idea
 /node_modules
-/build
 /test.html
 /.travis.yml
 /.npmignore

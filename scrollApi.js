@@ -21,6 +21,7 @@ var scrollApi = {
     var _this = this;
 
     var duration = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
+    var minDecelerate = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 4;
 
     var diff = to - this.getScrollTop();
     if (diff === 0) return;
@@ -29,6 +30,7 @@ var scrollApi = {
       return;
     }
     var step = diff / duration * 10;
+    var rateX = to / diff > minDecelerate ? minDecelerate : to / diff;
     requestAnimationFrame(function () {
       if (Math.abs(step) > Math.abs(diff)) {
         _this.setScrollTop(_this.getScrollTop() + diff);
@@ -36,7 +38,7 @@ var scrollApi = {
       }
       _this.setScrollTop(_this.getScrollTop() + step);
       if (diff > 0 && _this.getScrollTop() >= to || diff < 0 && _this.getScrollTop() <= to) return;
-      _this.scrollTo(to, duration - 16);
+      _this.scrollTo(to, duration - 16 / rateX);
     });
   }
 };
