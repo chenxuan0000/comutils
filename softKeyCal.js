@@ -5,7 +5,7 @@
  * @param {Function} upCb 当软键盘弹起的回调
  */
 
-var typeOf = require('../type/typeOf');
+var typeOf = require('./typeOf');
 var softKeyCal = function softKeyCal(downCb, upCb) {
 	var clientHeight = window.innerHeight;
 	downCb = typeOf(downCb) === 'Function' ? downCb : function () {};

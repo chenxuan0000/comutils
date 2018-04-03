@@ -5,7 +5,7 @@
  * @param  {Number} right
  * @param  {String} replace
  */
-var typeOf = require('../type/typeOf');
+var typeOf = require('./typeOf');
 
 var secretInfo = function secretInfo(personInfo) {
   var left = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 3;
