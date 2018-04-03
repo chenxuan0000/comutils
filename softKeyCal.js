@@ -5,20 +5,20 @@
  * @param {Function} upCb 当软键盘弹起的回调
  */
 
-var typeOf = require('./typeOf');
+var typeOf = require('./typeOf')
 var softKeyCal = function softKeyCal(downCb, upCb) {
-	var clientHeight = window.innerHeight;
-	downCb = typeOf(downCb) === 'Function' ? downCb : function () {};
-	upCb = typeOf(upCb) === 'Function' ? upCb : function () {};
-	window.addEventListener('resize', function () {
-		var height = window.innerHeight;
+	var clientHeight = window.innerHeight
+	downCb = typeOf(downCb) === 'Function' ? downCb : function() {}
+	upCb = typeOf(upCb) === 'Function' ? upCb : function() {}
+	window.addEventListener('resize', function() {
+		var height = window.innerHeight
 		if (height === clientHeight) {
-			downCb();
+			downCb()
 		}
 		if (height < clientHeight) {
-			upCb();
+			upCb()
 		}
-	});
-};
+	})
+}
 
-module.exports = softKeyCal;
+module.exports = softKeyCal
